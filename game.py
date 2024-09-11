@@ -4,7 +4,10 @@ def ask_question(question, answer):
     user_answer = input(question + " ")
     return user_answer.lower() == answer.lower()
 
+<<<<<<< HEAD
 # the code works!
+=======
+>>>>>>> 84dba3ebd23239b9c8bab7e080fb84bf3572d156
 def main():
     questions = {
         "What is the capital of France?": "paris",
